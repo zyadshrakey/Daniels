@@ -1,0 +1,155 @@
+@keyframes typing {
+  0% {
+    content: " D|";
+  }
+  2% {
+    content: " De|";
+  }
+  4% {
+    content: " Dev|";
+  }
+  6% {
+    content: " Deve|";
+  }
+  8% {
+    content: " Devel|";
+  }
+  10% {
+    content: " Develo|";
+  }
+  12% {
+    content: " Develop|";
+  }
+  14% {
+    content: " Develope|";
+  }
+  16% {
+    content: " Developer|";
+  }
+  18% {
+    content: " Develope|";
+  }
+  20% {
+    content: " Develop|";
+  }
+  22% {
+    content: " Develo|";
+  }
+  24% {
+    content: " Devel|";
+  }
+  26% {
+    content: " Deve|";
+  }
+  28% {
+    content: " Dev|";
+  }
+  30% {
+    content: " De|";
+  }
+  32% {
+    content: " D|";
+  }
+  34% {
+    content: " D|";
+  }
+  36% {
+    content: " De|";
+  }
+  38% {
+    content: " Des|";
+  }
+  40% {
+    content: " Desi|";
+  }
+  42% {
+    content: " Desig|";
+  }
+  44% {
+    content: " Design|";
+  }
+  46% {
+    content: " Designe|";
+  }
+  48% {
+    content: " Designer|";
+  }
+  50% {
+    content: " Designe|";
+  }
+  52% {
+    content: " Design|";
+  }
+  54% {
+    content: " Desig|";
+  }
+  56% {
+    content: " Desi|";
+  }
+  58% {
+    content: " Des|";
+  }
+  60% {
+    content: " Des|";
+  }
+  62% {
+    content: " De|";
+  }
+  64% {
+    content: " D|";
+  }
+  66% {
+    content: " Z|";
+  }
+  68% {
+    content: " ZI|";
+  }
+  70% {
+    content: " ZIA|";
+  }
+  72% {
+    content: " ZIAD|";
+  }
+  74% {
+    content: " ZIAD |";
+  }
+  76% {
+    content: " ZIAD R|";
+  }
+  78% {
+    content: " ZIAD RI|";
+  }
+  80% {
+    content: " ZIAD RIZ|";
+  }
+  82% {
+    content: " ZIAD RIZK|";
+  }
+  84% {
+    content: " ZIAD RIZ|";
+  }
+  86% {
+    content: " ZIAD RI|";
+  }
+  88% {
+    content: " ZIAD R|";
+  }
+  90% {
+    content: " ZIAD |";
+  }
+  92% {
+    content: " ZIAD|";
+  }
+  94% {
+    content: " ZIA|";
+  }
+  96% {
+    content: " ZI|";
+  }
+  98% {
+    content: " Z|";
+  }
+  100% {
+    content: " |";
+  }
+}

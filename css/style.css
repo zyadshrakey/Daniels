@@ -1,0 +1,338 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;700;800;900&display=swap");
+/* =====Global==== */
+body {
+  font-family: "Montserrat", sans-serif;
+}
+:after,
+:before {
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.pd-70 {
+  padding-bottom: 70px !important;
+}
+.mb-50 {
+  margin-bottom: 50px;
+}
+.fw-200 {
+  font-weight: 200;
+}
+.fw-700 {
+  font-weight: 700;
+}
+.fw-800 {
+  font-weight: 800;
+}
+.h-650 {
+  height: 650px;
+}
+.span,
+h3 {
+  display: inline-block;
+}
+.section-padding {
+  padding: 100px 0;
+}
+.section-title {
+  margin-bottom: 80px;
+}
+.section-title h3 {
+  font-weight: 900;
+  font-size: 40px;
+  z-index: 9;
+}
+.section-title h3:after {
+  content: "";
+  width: 100%;
+  height: 30px;
+  background-image: url(../imgs/dots.png);
+  background-repeat: repeat;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  z-index: -1;
+}
+/* =====Header==== */
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../imgs/bg.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+header h5 {
+  font-size: 50px;
+}
+header h1 span {
+  font-weight: 200;
+}
+h1 {
+  white-space: nowrap;
+  font-size: 50px;
+}
+header h1::after {
+  content: "";
+  position: absolute;
+  animation: typing 10s infinite;
+}
+header .icons i {
+  width: 40px;
+  height: 40px;
+  padding-block: 30%;
+  background-color: rgba(0, 0, 0, 0.7);
+  cursor: pointer;
+}
+/* =====About==== */
+.hero .container {
+  margin-top: 100px;
+}
+.hero .hero-img::after {
+  content: "";
+  width: 80%;
+  height: 80%;
+  position: absolute;
+  left: 0px;
+  bottom: -30px;
+  background-image: url(../imgs/dots.png);
+  background-repeat: repeat;
+  z-index: -1;
+}
+.container .hero-text h3 {
+  font-weight: 900;
+}
+.container .progress {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px inset;
+}
+.container .progress p,
+span {
+  font-weight: 200px;
+}
+.container .button-about button {
+  transition: 0.5s;
+}
+.container .button-about .button-1 {
+  background-color: black;
+  color: white;
+}
+.container .button-about .button-2 {
+  background-color: white;
+  color: black;
+}
+.container .button-about .button-1:hover {
+  background-color: white;
+  color: black;
+}
+.container .button-about .button-2:hover {
+  background-color: black;
+  color: white;
+}
+/* =====Services==== */
+.services .item {
+  padding: 50px 20px;
+  background: #fff;
+}
+.services .item .icon i {
+  width: 50px;
+  height: 50px;
+}
+.services .item .icon {
+  font-size: 30px;
+  width: 200px;
+  height: 100px;
+  padding: 15px;
+  background: #f7f7f7;
+  line-height: 70px;
+  transition: all 0.5s;
+}
+.services .item .icon:hover {
+  background: black;
+  color: #f7f7f7;
+}
+/* =====Works==== */
+.portfolio .filter span {
+  cursor: pointer;
+  z-index: 2;
+}
+.portfolio .filter .active::before {
+  width: 95%;
+}
+.portfolio .filter span:hover::before {
+  width: 95%;
+}
+.portfolio .filter span::before {
+  content: "";
+  width: 0;
+  height: 2px;
+  background: black;
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  transition: all 0.4s;
+  z-index: -1;
+}
+.portfolio .item-img:hover .item-img-overlay {
+  opacity: 1;
+}
+.portfolio .item-img-overlay {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
+  background: rgba(255, 255, 255, 0.95);
+  opacity: 0;
+  transition: all 0.5s;
+  z-index: 2;
+}
+.portfolio .item-img h6 {
+  left: 50%;
+  top: 80px;
+  letter-spacing: 2px;
+}
+.portfolio .item-img .icons {
+  left: 50%;
+  top: 150px;
+}
+.portfolio .item-img .icons i {
+  width: 20px;
+  height: 20px;
+}
+.portfolio .item-img .icons i {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  line-height: 28px;
+  border: 1px solid black;
+  background: #111;
+  color: #eee;
+}
+.portfolio .item-img .icons i:hover {
+  background: transparent;
+  color: #000;
+}
+/* =====Clints==== */
+.carousel-item img {
+  width: 120px;
+}
+.carousel .carousel-indicators button {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #869791;
+}
+/* =====Number==== */
+.numbers .icon {
+  font-size: 30px;
+  display: block;
+  margin-bottom: 15px;
+}
+.numbers h3 {
+  font-weight: 900;
+  margin-bottom: 15px;
+}
+.numbers p {
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+/* =====Team==== */
+.blog .social {
+  background-color: rgba(255, 255, 255, 0.95);
+  position: absolute;
+  text-align: center;
+  inset: 5px;
+  opacity: 0;
+  transition: 0.5s;
+  transform: rotateY(180deg) scale(0.5, 0.5);
+}
+.blog img {
+  transition: 0.5s;
+}
+.blog .social ul {
+  text-align: center;
+  position: relative;
+  top: 170px;
+}
+.blog .social ul li {
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.blog .social ul li a {
+  border: 1px solid #000;
+  color: #fff;
+  background-color: #000;
+  display: block;
+  font-size: 20px;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+}
+.blog .item:hover .social {
+  opacity: 1;
+  transform: rotate(0) scale(1, 1);
+}
+.blog .img:hover img {
+  scale: 1.2;
+}
+.blog .social ul li a:hover {
+  background: transparent;
+  color: #000;
+}
+/* =====contact==== */
+.container .contact-card .text-1 h2 {
+  font-size: 18px;
+}
+.container .contact-card .text-1 p {
+  color: #768384;
+  font-weight: 450;
+}
+.container .contact-card .icon {
+  font-size: 1.5rem;
+}
+.container .contact-card .icon i {
+  border: 10px solid #f7f7f7;
+  background-color: #f7f7f7;
+  border-radius: 50%;
+  padding: 15px;
+  transition: 0.5s;
+}
+.container .sec2:hover .icon i {
+  border-color: black;
+  color: white;
+  background-color: black;
+}
+.contact .container .contact-name .form-group {
+  width: 100%;
+  height: 40px;
+  border: none;
+  padding: 10px;
+  background-color: #f7f7f7;
+}
+.contact .container .contact-name .form-group:focus {
+  outline: none;
+}
+.contact .btn-contact {
+  background-color: black;
+  color: white;
+  transition: 0.5s;
+}
+.contact .btn-contact:hover {
+  background-color: white;
+  color: black;
+}
+/* =====Footer==== */
+.footer {
+  height: 100px;
+  margin-top: 100px;
+  background-color: #1c1c1c;
+  color: #768384;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
